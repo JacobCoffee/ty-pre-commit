@@ -1,0 +1,9 @@
+- id: ty
+  name: ty
+  description: Run ty type checker
+  entry: ty check
+  language: python
+  types: [python]
+  pass_filenames: false
+  require_serial: true
+  additional_dependencies: ["ty>=0.0.1a26"]
