@@ -42,6 +42,15 @@ Pass additional arguments:
 - Python 3.8+
 - ty type checker (installed automatically as dependency)
 
+## Alternative Git Hook Managers
+
+While this hook works with [pre-commit](https://pre-commit.com/), you might also consider:
+
+- **[prek](https://github.com/j178/prek)** - Fast, pure Rust implementation with better performance
+- **[lefthook](https://github.com/evilmartians/lefthook)** - Fast Git hooks manager written in Go
+
+Both support the same `.pre-commit-config.yaml` format and are drop-in replacements with improved speed.
+
 ## License
 
 MIT
